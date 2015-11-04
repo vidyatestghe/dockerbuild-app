@@ -1,5 +1,5 @@
 language: python
-build_image: vidyar/phpmongo:master.68.1
+build_image: vidyar/phpmongo:master.69.1
 python:
   - 3.4
  # - 2.7
