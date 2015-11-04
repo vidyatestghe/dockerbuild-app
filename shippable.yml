@@ -1,7 +1,5 @@
 language: python
 
-build_image:
- - shippable/minv2
 
 python:
   - 3.4
