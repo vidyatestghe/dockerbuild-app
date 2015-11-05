@@ -9,8 +9,12 @@ script:
   - true
 archive: true
 
+before_script:
+ - echo $test1
+
 cache: true
 env:
+ - secure: CrSUbz+QVPxfMeultp4Kzr33umhEdWcnv8UGS0qGOpTkZK3q/Wx6Cru3EDuo0DN9wccD1omoCyLjLDm090W/YLyexGaz27lcYfSkifUopiBNCuQw15nIXCc0VkjZDARZi3BYKtl7JMnNL/BD53Xo7wkcfyikhRt388qM1JP0LXTdeqDCh0HttAsmoQ7dtdN4dMDaSyZGXIzb2g5ae5ICynyQSW4lG650t342Z/008lRPzN2+ORhW3S6jBZYRjOedtHaVZ/eYSVqHb2PqiQK1lDoCeFFdwHcADNb3CY3m3R6kCifmdw6CfuzPFoApTngZrTdtXQ5rw4Bjy0v/38vBsQ==
  - secure: LI/dIIhopP0A2QnYkWJYVutLxmgVgvyNk4tZP9Je4GMkhWwAQTzO5JVJXFoIkAMQJYJK2wiPELznYONIFuwQ0d4UGXMlji4Lv68WUIC54z3PrzpJRS7wPzkmhoJTlmkoH60Kx1jI8PxXky/6+mEpsqWOf2PZC9UCbZnpddDgiR/wLBOkPMh3WUPkv1Atokb05rJWMSVw24xq61wiKAhkQNklwnT8wWx0l5tY3YrUcn7Ae2wCTTdxFROwgB2+rdD1oea4Fv5Dt2pYiNiysOqcRIX88pFRf9NiqwiaMoGNaGP6gjv3haZ77IceBBoVGSPXvsIan+8ok6pnjkazpu1W5w==
  
 after_script: echo $env1
