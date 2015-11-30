@@ -3,9 +3,9 @@ language: python
 #build_image: vidyar/phpmongo:master.69.1
 
 python:
-  - 3.4
+ # - 3.4
  # - 2.7
- # - 3.3
+  - 3.3
   
 script:
   - true
@@ -17,7 +17,7 @@ before_script:
  - echo $test1
 
 
-cache: true
+#cache: true
 env:
  - secure: kkW5wvvkvl4tkNwjfydtv86FkkkE2+cYu+Gbc9c2a0dJEkxhDojDP7UPW63g564nIph/Pq0W495K7yYJJqLk9N4cEX12q0oAPII3wQ5p6mk3DPDeIl0+E3mOnnJlUTKbvDVwzRK/kdJU7oSqH/Dloxsqu+BNtuxXwP98BCXgoL6Zsd4j+3WYnPEDp6GkQax3A5k/7nwVOu5r/JtFUVGhIwGpA8nm1nAuvKNE5sKauGCu+Mv4qi4iXnDOrfxzWTbpjj3WHZfiYSx5MIJnm6tcf8rb/me5AV7wcLAUx3n053A3z5Ti8uA4BI2Hj9JKoLfc9HA9/6JJCwkp7u0fa/nisA==
  - secure: CrSUbz+QVPxfMeultp4Kzr33umhEdWcnv8UGS0qGOpTkZK3q/Wx6Cru3EDuo0DN9wccD1omoCyLjLDm090W/YLyexGaz27lcYfSkifUopiBNCuQw15nIXCc0VkjZDARZi3BYKtl7JMnNL/BD53Xo7wkcfyikhRt388qM1JP0LXTdeqDCh0HttAsmoQ7dtdN4dMDaSyZGXIzb2g5ae5ICynyQSW4lG650t342Z/008lRPzN2+ORhW3S6jBZYRjOedtHaVZ/eYSVqHb2PqiQK1lDoCeFFdwHcADNb3CY3m3R6kCifmdw6CfuzPFoApTngZrTdtXQ5rw4Bjy0v/38vBsQ==
