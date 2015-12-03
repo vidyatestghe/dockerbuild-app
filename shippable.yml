@@ -2,7 +2,6 @@ language: python
 
 #build_image: vidyar/phpmongo:master.69.1
 
-
 python:
  # - 3.4
  # - 2.7
@@ -14,7 +13,6 @@ script:
 #archive: true
 before_script:
  - echo $test1
-
 
 #cache: true
 env:
@@ -30,5 +28,5 @@ notifications:
              - vidya@shippable.com
              - buildsampletest@gmail.com
             # - vidyac.raghav@gmail.com
-         on_success: change
+         on_success: always
          on_failure: always
