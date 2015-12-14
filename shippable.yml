@@ -9,8 +9,6 @@ python:
   
 script:
   - true
- 
-  
 #archive: true
 before_script:
  - echo $test1
