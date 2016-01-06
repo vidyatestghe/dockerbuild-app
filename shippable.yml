@@ -30,3 +30,5 @@ notifications:
             # - vidyac.raghav@gmail.com
          on_success: always
          on_failure: always
+     irc:
+         - "chat.freenode.net#test-irc"
